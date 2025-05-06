@@ -12,18 +12,22 @@
 }
 
 .search-container input{
-    height:30px;
+    height:40px;
     width:300px;
     text-align:center;
-    background-color:hsla(200, 23%, 95%, 0.664)
+    background-color:hsl(177, 91%, 96%);
+    border-radius:30px;
 }
 
 .search-container button{
-    height:32px;
-    width:45px;
-    border-radius:3px;
+    height:40px;
+    width:40px;
+    border-radius:45%;
     margin:5px;
+    padding:2px;
     cursor:pointer;
+    background-color:hsl(177, 91%, 96%);
+
 }
 
 .card-container{
@@ -32,7 +36,7 @@
     justify-content:center;
     align-items:center;
     margin:2px;
-    background-color:hsl(234, 64%, 63%);
+    background-color: hsl(245, 48%, 33%);
     border-radius:10px;
     border:2px solid;
     padding:20px 30px;
@@ -44,4 +48,8 @@
 }
 .card-container h2{
     margin:5px;
+}
+.custom-svg{
+    height:10px;
+    width:10px;
 }
